@@ -17,13 +17,16 @@ Ensure you have Python installed along with the required dependencies. Install t
 ```bash
 pip install pillow numpy
 ```
-## 🛠️ How It Works
-🔹 Loads the input image and converts it into a NumPy array.
-🔹 Generates a random key of the same dimensions as the image.
-🔹 Uses bitwise XOR (np.bitwise_xor) for encryption and decryption.
-🔹 Saves the encrypted and decrypted images.
+## 🛠️ How It Works  
+🔹 Loads the input image and converts it into a NumPy array.  
+🔹 Generates a random key of the same dimensions as the image.  
+🔹 Uses bitwise XOR (`np.bitwise_xor`) for encryption and decryption.  
+🔹 Saves the encrypted and decrypted images.  
 
-## 📌 Notes
-⚠️ The encryption method is simple and does not provide high security.
-⚠️ The same key is required for decryption, so store it securely.
-⚠️ For stronger encryption, consider advanced cryptographic techniques.
+## 📌 Notes  
+⚠️ The encryption method is simple and does not provide high security.  
+⚠️ The same key is required for decryption, so store it securely.  
+⚠️ For stronger encryption, consider advanced cryptographic techniques.  
+
+## 🔚 Conclusion  
+This project demonstrates a basic image encryption technique using NumPy and PIL. While it offers a simple way to secure images, it lacks advanced security measures required for real-world applications. For enhanced security, integrating robust cryptographic algorithms like AES or RSA is recommended. 🚀  
